@@ -1,5 +1,5 @@
 package GroupWork.Lab2Task2Pull;
 
-public interface Observer {
-	public void update(String babyname, boolean crying, int level);
+interface Observer {
+    public void update();
 }
