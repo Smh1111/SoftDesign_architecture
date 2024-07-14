@@ -20,10 +20,14 @@ public class BabyMonitorSimple implements Observer {
 	public void turnOff() {
 		mdata.removeObserver(this);
 	}
-
+	
+	@Override
 	public void update(String name, boolean crying, int level) {
-		this.name 
+		
 		this.crying=crying;
+		
 		display();
 	}
+
+	
 }

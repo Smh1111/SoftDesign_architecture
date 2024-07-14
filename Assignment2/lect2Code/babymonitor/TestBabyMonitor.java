@@ -4,7 +4,7 @@ public class TestBabyMonitor {
 				Baby marla = new Baby("marla");
 				// one monitor with one baby
 				BabyMonitorSimple livingRoom = new BabyMonitorSimple("kitchen ", marla);
-				marla.setData(true, 1);
+				marla.setData(true, 1, null);
 				// one monitor listening to two babies
 				Baby charlie = new Baby("Charlie");
 				BabyMonitorAdvanced kitchen = new BabyMonitorAdvanced("Living room ", marla, charlie);
