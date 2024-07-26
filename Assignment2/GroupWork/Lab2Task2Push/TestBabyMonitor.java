@@ -8,8 +8,9 @@ public class TestBabyMonitor {
     
 		baby1.setData(true, 5, null); // Notify monitors that the baby is crying
 		//monitor1.turnOff(); // Turn off one monitor
-
-		baby2.setData(true, 2, null); // Notify monitors that the baby stopped crying
+		
+		baby1.setData(false, 0, null); // Notify monitors that the baby stopped crying
+		baby2.setData(false, 2, null); // Notify monitors that the baby stopped crying
 		
 		//monitor2.turnOff(); // Turn off the other monitor
 

@@ -14,6 +14,10 @@ public class BabyMonitorSimple implements Observer {
 	public void display() {
 		if (crying) {
 			System.out.println("Monitor:" + name + " baby is crying");
+			
+		}
+		else {
+			System.out.println("Monitor:" + name + " baby is not crying");
 		}
 	}
 	
