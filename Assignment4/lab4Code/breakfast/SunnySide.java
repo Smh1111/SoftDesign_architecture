@@ -10,9 +10,6 @@ public class SunnySide extends breakfast {
 		System.out.println("Cooking the eggs sunny side up.");
 	}
 
-	
-	boolean customerWantsSaltsAndPepper() {
-		return false;
-	}
+
 
 }

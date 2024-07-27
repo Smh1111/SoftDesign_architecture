@@ -14,9 +14,6 @@ public class ScrambledEggs extends breakfast {
 	}
 	
 	
-	boolean customerWantsSaltsAndPepper() {
-		return true;
-	}
 	
 
 }

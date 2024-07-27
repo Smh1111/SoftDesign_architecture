@@ -1,9 +1,10 @@
 public abstract class breakfast {
+      boolean customerWantsSaltsAndPepper = false;
       
-       void prepareBreakfast(int numOfEggs, boolean customerWantsSaltsAndPepper) {
+      void prepareBreakfast(int numOfEggs) {
             crackEggs(numOfEggs);
             prepareEggs();
-            if (customerWantsSaltsAndPepper) {
+            if (getCustomerWantsSaltsAndPepper()) {
                   spreadSaltsAndPepper();
             }
             cook();
@@ -11,7 +12,17 @@ public abstract class breakfast {
             
             System.err.println();
       }
-
+      void setCustomerWantsSaltsAndPepper(boolean customerWantsSaltsAndPepper){
+            this.customerWantsSaltsAndPepper = customerWantsSaltsAndPepper;
+      }
+      boolean getCustomerWantsSaltsAndPepper(){
+            if (customerWantsSaltsAndPepper) {
+                  return true;
+            }
+            else{
+                  return false;
+            }
+      }
       abstract void prepareEggs();
       
       abstract void cook();
@@ -27,5 +38,6 @@ public abstract class breakfast {
       final public void spreadSaltsAndPepper() {
             System.out.println("Spreading salts and pepper on the eggs.");
       }
+
       
 }

@@ -15,10 +15,6 @@ public class Omelette extends breakfast {
 	}
 
 	
-	boolean customerWantsSaltsAndPepper() {
-		return false;
-	}
-	
 	
 
 }
