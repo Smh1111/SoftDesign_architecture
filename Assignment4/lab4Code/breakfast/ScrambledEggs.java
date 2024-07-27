@@ -13,7 +13,7 @@ public class ScrambledEggs extends breakfast {
 		System.out.println("Stirring and adding milk to the eggs");
 	}
 	
-	@Override
+	
 	boolean customerWantsSaltsAndPepper() {
 		return true;
 	}

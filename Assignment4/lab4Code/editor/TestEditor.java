@@ -5,8 +5,9 @@ public class TestEditor {
 	 myDocument.Write("And this is crazy");
 	 myDocument.Write("But here’s my number");
 	 myDocument.Write("So call me maybe");
-    //myDocument.Erase("And this is crazy");
-     //myDocument.Undo();
+    myDocument.Erase("And this is crazy");
+    
+     myDocument.Undo(4);
      myDocument.Bold(1); 
 	 System.out.println(myDocument.Read());
 	 myDocument.printCommandBuffer();

@@ -14,7 +14,7 @@ public class Omelette extends breakfast {
 		System.out.println("Stirring the eggs");
 	}
 
-	@Override
+	
 	boolean customerWantsSaltsAndPepper() {
 		return false;
 	}
