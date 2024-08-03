@@ -1,13 +1,18 @@
-
 public class Test_tree {
 	
-	public static void main(String[] args) {
+	public static void ) {
 		Tree mytree = new BlueSpruce();
 		mytree = new Star(mytree);
 		mytree = new Ruffles(mytree);
-		mytree = new Ruffles(mytree);
-		mytree = new Ruffles(mytree);
 		mytree = new Star(mytree);
-		System.out.println(mytree.getDescription() + " costs:" +mytree.cost());
+		mytree = new Ruffles(mytree);
+		printtree(mytree);
+	}
+
+	public static void printtree(Tree tree){
+		System.out.println(tree.getDescription());
+		System.out.println("cost $"+tree.cost());
 	}
 }
+
+

@@ -7,7 +7,7 @@ public class DocumentInvoker {
 	public DocumentInvoker(String name) {
 		currentdoc = new Document(name);
 	}
-
+	
 	// undo the last command
 	public void Undo() {
 		Command tmp = (Command) commands.get(commands.size() - 1);
@@ -79,3 +79,4 @@ public class DocumentInvoker {
 		System.out.println(txt.toString());
 	}
 }
+
