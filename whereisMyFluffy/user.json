@@ -14,11 +14,16 @@
             }
       ],
       "password": "hashed_password",
+      "paypal": "#123-456-789",
       "createdAt": "2024-08-18T00:00:00Z",
-      "updatedAt": "2024-08-18T00:00:00Z"
-      
-      
-
+      "updatedAt": "2024-08-18T00:00:00Z", 
+      "rewards": [
+    {
+      "transaction_id": "...",
+      "amount": 50,
+      "status": "pending"  // "pending", "completed", "cancelled"
+    }
+  ]
    }
 
    

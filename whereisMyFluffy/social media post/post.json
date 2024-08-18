@@ -3,23 +3,27 @@
       "_id": 1001,
       "title": "I lost my cute gold retriever!",
       "images": [],
-      "description": "tom@example.com",
-      "phone_num": "765-555-5555",
+      "description": "My dog ran away from home. Please help me find him!",
+      "phone_no": "765-555-5555",
       "date": "2020-01-01",
-      "author": {
-            "_id": 1
+      "authorName": "Tom",
+
+      "pet": {
+            "_id": 1001
       },
       
-      "comments": [
-            {
-                  "_id": 2001,
-                  "text": "I hope you find him soon!" 
-            },
-            {
-                  "_id": 2002,
-                  "text": "" 
-            }
-      ]
+      "lostDate": "2024-08-15T00:00:00Z",
+      
+      "lastSeenLocation": {
+        "type": "Point",
+        "coordinates": [-73.856077, 40.848447],
+        "address": "123 Main St, New York, NY 10001"
+      },
+      "returnAddress": {
+        "type": "Point",
+        "coordinates": [-73.856077, 40.848447],
+      "address": "123 Main St, New York, NY 10001"
+      }
       
    }
  

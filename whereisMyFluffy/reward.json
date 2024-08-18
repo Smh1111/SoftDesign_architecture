@@ -1,13 +1,10 @@
 {
-      "_id": "...",
-      "petID": "...",
-      "finder": {
-        "userID": "...",
-        "name": "Jane Smith",
-        "email": "janesmith@example.com"
-      },
-      "rewardAmount": 100.00,
-      "status": "Pending",  
-      "rewardDate": null
-    }
-    
+  "_id": "...",
+  "owner_id": "...",  // The owner who offered the reward
+  "finder_id": "...",  // The user who found the pet
+  "pet_id": "...",  // The pet that was found
+  "reward_amount": 50,
+  "status": "pending",  // "pending", "completed", "cancelled"
+  "created_at": "2024-08-18T10:00:00Z",
+  "completed_at": "2024-08-19T12:00:00Z"  // Only set if completed
+}
